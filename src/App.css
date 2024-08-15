@@ -1,0 +1,70 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+    color: white;
+}
+.test {
+    color: white;
+    font-size: 36px;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+    background:
+
+    linear-gradient(
+            45deg,
+            rgba(100, 0, 100, 0.1), /* 빨간색의 20% 오퍼시티 */
+            rgba(10, 0, 100, 0.1)  /* 초록색의 20% 오퍼시티 */
+    ),
+    linear-gradient(
+            135deg,
+            rgba(130, 165, 255, 0.2), /* 파란색의 20% 오퍼시티 */
+            rgba(100, 100, 0, 0.1) /* 노란색의 20% 오퍼시티 */
+    ),
+    linear-gradient(
+    45deg,
+    rgba(0, 0, 0, 1), /* 검정색의 20% 오퍼시티 배경 */
+    rgba(0, 0, 0, 1)  /* 같은 색상으로, 상하로 동일한 투명도 유지 */
+    );
+
+}
+
+
